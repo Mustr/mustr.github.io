@@ -2,107 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>沐码阁</title>
-    <link>/</link>
+    <link>https://mustr.github.io/</link>
     <description>Recent content on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 28 Mar 2023 20:52:02 +0800</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 20:52:02 +0800</lastBuildDate><atom:link href="https://mustr.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo常用命令</title>
-      <link>/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://mustr.github.io/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Tue, 28 Mar 2023 20:52:02 +0800</pubDate>
       
-      <guid>/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://mustr.github.io/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>创建新网站 hugo new site 网站名字 hugo开启服务 hugo server --buildDrafts hugo serve hugo server -D 三种方式都可以 新建文件 hugo new 文件目录/文件名.zh.md hugo new 文件目录/文件目录/文件名.zh.md 新建章节 hugo new --kind chapter 文件目录/_index.zh.md 文件_index.zh.md里面改为 chapter = true 添加主题 // 进入主题目录 cd themes/ // 克隆le</description>
     </item>
     
     <item>
       <title>MySQL集群部署</title>
-      <link>/posts/blog/mysql_cluster_deploy/</link>
+      <link>https://mustr.github.io/posts/blog/mysql_cluster_deploy/</link>
       <pubDate>Mon, 27 Mar 2023 22:20:39 +0800</pubDate>
       
-      <guid>/posts/blog/mysql_cluster_deploy/</guid>
+      <guid>https://mustr.github.io/posts/blog/mysql_cluster_deploy/</guid>
       <description>注：只提供部署三台MySQL服务器的流程，基于MySQL的MGR特性。没有主从关系，每个节点都是一样的。 部署多台的服务方式一样，只需简单的修改几个地方的配置。 案例环境说明 节点 ip 端口 作用 节点1 (chenxiaoju3) 192.168.1.89 3306 MySQL部署 节点2 (chenxiaoju4） 192.168.1.91 3306，6033 MySQL部署+P</description>
     </item>
     
     <item>
       <title>MySQL集群方案</title>
-      <link>/posts/blog/mysql_cluster/</link>
+      <link>https://mustr.github.io/posts/blog/mysql_cluster/</link>
       <pubDate>Mon, 27 Mar 2023 22:04:55 +0800</pubDate>
       
-      <guid>/posts/blog/mysql_cluster/</guid>
+      <guid>https://mustr.github.io/posts/blog/mysql_cluster/</guid>
       <description>一、前言 ​ 因为现在的架构采用的是单一数据源的形式，在并发请求大的时候，应用是可以集群的，所以应用层不是我们的瓶颈，而数据库变成了我们的瓶颈，所以也提供数据库集群的方案。 ​ 目前采用的数据库是MySQL，针对MySQL的集群，MySQL自己就提供了支持，即主从复制，从主从复制中又引生</description>
     </item>
     
     <item>
       <title>Docker常用命令</title>
-      <link>/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>https://mustr.github.io/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Mon, 27 Mar 2023 21:35:44 +0800</pubDate>
       
-      <guid>/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>https://mustr.github.io/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>镜像管理 images docker images ： 列出本地镜像。 docker images -a #列出本地所有的镜像 docker images -p #只显示镜像ID 语法： docker images [OPTIONS] [REPOSITORY[：TAG]] OPTIONS说明： -a ：列出本地所有的镜像（含中间映像层，默认情况下，过滤掉中间映像层）； &amp;ndash;digests ：显示镜像的摘要信息； -f ：显示满足条件的镜像； &amp;ndash;format ：指定返回值的</description>
     </item>
     
     <item>
       <title>Docker安装</title>
-      <link>/posts/tech/docker%E5%AE%89%E8%A3%85/</link>
+      <link>https://mustr.github.io/posts/tech/docker%E5%AE%89%E8%A3%85/</link>
       <pubDate>Mon, 27 Mar 2023 21:24:17 +0800</pubDate>
       
-      <guid>/posts/tech/docker%E5%AE%89%E8%A3%85/</guid>
+      <guid>https://mustr.github.io/posts/tech/docker%E5%AE%89%E8%A3%85/</guid>
       <description>本安装教程是基于Centos7版本的。并且系统已经安装了yum工具。 一.安装 docker有两个版本（EE）企业版， （CE）社区版。 社区版是开源免费的。所以我们安装的是社区版的。 步骤如下： 1.安装 yum 配置管理工具 yum install -y yum-utils device-mapper-persistent-data lvm2 2.设置 Docker 安装源 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 注： yum-config-manage</description>
     </item>
     
     <item>
       <title>Springboot集成websocket</title>
-      <link>/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</link>
+      <link>https://mustr.github.io/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</link>
       <pubDate>Mon, 27 Mar 2023 21:19:35 +0800</pubDate>
       
-      <guid>/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</guid>
+      <guid>https://mustr.github.io/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</guid>
       <description>websocket技术，服务器主动向客户端发送消息</description>
     </item>
     
     <item>
       <title>自定义文件转换服务镜像</title>
-      <link>/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</link>
+      <link>https://mustr.github.io/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</link>
       <pubDate>Mon, 27 Mar 2023 20:21:20 +0800</pubDate>
       
-      <guid>/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://mustr.github.io/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</guid>
       <description>本文说明文件转换服务镜像制作以及使用的工具封装</description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>/posts/life/life/</link>
+      <link>https://mustr.github.io/posts/life/life/</link>
       <pubDate>Thu, 05 May 2022 00:18:15 +0800</pubDate>
       
-      <guid>/posts/life/life/</guid>
+      <guid>https://mustr.github.io/posts/life/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Read</title>
-      <link>/posts/read/read/</link>
+      <link>https://mustr.github.io/posts/read/read/</link>
       <pubDate>Thu, 05 May 2022 00:18:06 +0800</pubDate>
       
-      <guid>/posts/read/read/</guid>
+      <guid>https://mustr.github.io/posts/read/read/</guid>
       <description></description>
     </item>
     
     <item>
       <title>🙋🏻‍♂️关于</title>
-      <link>/about/</link>
+      <link>https://mustr.github.io/about/</link>
       <pubDate>Sun, 27 Mar 2022 20:00:00 +0800</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://mustr.github.io/about/</guid>
       <description>关于我 英文名: mustr 职业: 程序员 运动: 跑步、户外、电子竞技</description>
     </item>
     
     <item>
       <title>🤝友链</title>
-      <link>/links/</link>
+      <link>https://mustr.github.io/links/</link>
       <pubDate>Sat, 06 Nov 2021 15:15:53 +0800</pubDate>
       
-      <guid>/links/</guid>
+      <guid>https://mustr.github.io/links/</guid>
       <description>沐码阁 一个记录技术、阅读、生活的博客 ✉友链格式 名称： 沐码阁 网址： https://mustr.github.io/ 图标： https://mustr.github.io/img/Q.gif 描述： 一个记录技术、阅读、生活的博客 ✉友链申请要求 秉承互换友链原则、文章定期更新、不能有太多广告、个人描述字数控制在15字内 🍻Hugo博客交流群 937830864</description>
     </item>
     

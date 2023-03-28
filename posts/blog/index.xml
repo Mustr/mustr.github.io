@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>🧱 开发 on 沐码阁</title>
-    <link>/posts/blog/</link>
+    <link>https://mustr.github.io/posts/blog/</link>
     <description>Recent content in 🧱 开发 on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Mar 2023 22:20:39 +0800</lastBuildDate><atom:link href="/posts/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 22:20:39 +0800</lastBuildDate><atom:link href="https://mustr.github.io/posts/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL集群部署</title>
-      <link>/posts/blog/mysql_cluster_deploy/</link>
+      <link>https://mustr.github.io/posts/blog/mysql_cluster_deploy/</link>
       <pubDate>Mon, 27 Mar 2023 22:20:39 +0800</pubDate>
       
-      <guid>/posts/blog/mysql_cluster_deploy/</guid>
+      <guid>https://mustr.github.io/posts/blog/mysql_cluster_deploy/</guid>
       <description>注：只提供部署三台MySQL服务器的流程，基于MySQL的MGR特性。没有主从关系，每个节点都是一样的。 部署多台的服务方式一样，只需简单的修改几个地方的配置。 案例环境说明 节点 ip 端口 作用 节点1 (chenxiaoju3) 192.168.1.89 3306 MySQL部署 节点2 (chenxiaoju4） 192.168.1.91 3306，6033 MySQL部署+P</description>
     </item>
     
     <item>
       <title>MySQL集群方案</title>
-      <link>/posts/blog/mysql_cluster/</link>
+      <link>https://mustr.github.io/posts/blog/mysql_cluster/</link>
       <pubDate>Mon, 27 Mar 2023 22:04:55 +0800</pubDate>
       
-      <guid>/posts/blog/mysql_cluster/</guid>
+      <guid>https://mustr.github.io/posts/blog/mysql_cluster/</guid>
       <description>一、前言 ​ 因为现在的架构采用的是单一数据源的形式，在并发请求大的时候，应用是可以集群的，所以应用层不是我们的瓶颈，而数据库变成了我们的瓶颈，所以也提供数据库集群的方案。 ​ 目前采用的数据库是MySQL，针对MySQL的集群，MySQL自己就提供了支持，即主从复制，从主从复制中又引生</description>
     </item>
     
     <item>
       <title>自定义文件转换服务镜像</title>
-      <link>/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</link>
+      <link>https://mustr.github.io/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</link>
       <pubDate>Mon, 27 Mar 2023 20:21:20 +0800</pubDate>
       
-      <guid>/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</guid>
+      <guid>https://mustr.github.io/posts/blog/%E8%87%AA%E5%AE%9A%E4%B9%89%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E6%9C%8D%E5%8A%A1%E9%95%9C%E5%83%8F/</guid>
       <description>本文说明文件转换服务镜像制作以及使用的工具封装</description>
     </item>
     

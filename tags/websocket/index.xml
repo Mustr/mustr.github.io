@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>websocket on 沐码阁</title>
-    <link>/tags/websocket/</link>
+    <link>https://mustr.github.io/tags/websocket/</link>
     <description>Recent content in websocket on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Mar 2023 21:19:35 +0800</lastBuildDate><atom:link href="/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 21:19:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Springboot集成websocket</title>
-      <link>/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</link>
+      <link>https://mustr.github.io/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</link>
       <pubDate>Mon, 27 Mar 2023 21:19:35 +0800</pubDate>
       
-      <guid>/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</guid>
+      <guid>https://mustr.github.io/posts/tech/springboot%E9%9B%86%E6%88%90websocket/</guid>
       <description>websocket技术，服务器主动向客户端发送消息</description>
     </item>
     
