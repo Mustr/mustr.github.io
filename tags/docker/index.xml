@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>docker on 沐码阁</title>
+    <link>/tags/docker/</link>
+    <description>Recent content in docker on 沐码阁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 27 Mar 2023 21:24:17 +0800</lastBuildDate><atom:link href="/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker安装</title>
+      <link>/posts/tech/docker%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Mon, 27 Mar 2023 21:24:17 +0800</pubDate>
+      
+      <guid>/posts/tech/docker%E5%AE%89%E8%A3%85/</guid>
+      <description>本安装教程是基于Centos7版本的。并且系统已经安装了yum工具。 一.安装 docker有两个版本（EE）企业版， （CE）社区版。 社区版是开源免费的。所以我们安装的是社区版的。 步骤如下： 1.安装 yum 配置管理工具 yum install -y yum-utils device-mapper-persistent-data lvm2 2.设置 Docker 安装源 yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo 注： yum-config-manage</description>
+    </item>
+    
+  </channel>
+</rss>
