@@ -6,7 +6,16 @@
     <description>Recent content in docker on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Mar 2023 21:24:17 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Mar 2023 21:35:44 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker常用命令</title>
+      <link>https://mustr.github.io/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Mon, 27 Mar 2023 21:35:44 +0800</pubDate>
+      
+      <guid>https://mustr.github.io/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>镜像管理 images docker images ： 列出本地镜像。 docker images -a #列出本地所有的镜像 docker images -p #只显示镜像ID 语法： docker images [OPTIONS] [REPOSITORY[：TAG]] OPTIONS说明： -a ：列出本地所有的镜像（含中间映像层，默认情况下，过滤掉中间映像层）； &amp;ndash;digests ：显示镜像的摘要信息； -f ：显示满足条件的镜像； &amp;ndash;format ：指定返回值的</description>
+    </item>
+    
     <item>
       <title>Docker安装</title>
       <link>https://mustr.github.io/posts/tech/docker%E5%AE%89%E8%A3%85/</link>

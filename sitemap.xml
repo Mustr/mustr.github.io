@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://mustr.github.io/posts/read/%E5%8D%93%E6%9C%89%E6%88%90%E6%95%88%E7%9A%84%E7%AE%A1%E7%90%86%E8%80%85%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2023-03-29T21:19:35+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/posts/read/</loc>
+    <lastmod>2023-03-29T21:19:35+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/posts/</loc>
+    <lastmod>2023-03-29T21:19:35+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/</loc>
+    <lastmod>2023-03-29T21:19:35+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/tags/%E9%98%85%E8%AF%BB/</loc>
+    <lastmod>2023-03-29T21:19:35+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/tags/</loc>
+    <lastmod>2023-03-29T21:19:35+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/posts/read/%E5%B0%8F%E5%AD%A6%E9%97%AE.%E8%A7%A3%E5%86%B3%E4%BD%A0%E7%9A%847%E7%A7%8D%E4%BA%BA%E7%94%9F%E7%84%A6%E8%99%91%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2023-03-29T21:10:13+08:00</lastmod>
+  </url><url>
+    <loc>https://mustr.github.io/posts/read/%E8%AF%B4%E8%AF%9D%E5%BF%83%E7%90%86%E5%AD%A6%E8%AF%BB%E5%90%8E%E6%84%9F/</loc>
+    <lastmod>2023-03-29T20:42:36+08:00</lastmod>
+  </url><url>
     <loc>https://mustr.github.io/posts/tech/</loc>
     <lastmod>2023-03-28T20:52:02+08:00</lastmod>
   </url><url>
-    <loc>https://mustr.github.io/posts/</loc>
+    <loc>https://mustr.github.io/tags/hugo/</loc>
     <lastmod>2023-03-28T20:52:02+08:00</lastmod>
   </url><url>
     <loc>https://mustr.github.io/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
-    <lastmod>2023-03-28T20:52:02+08:00</lastmod>
-  </url><url>
-    <loc>https://mustr.github.io/</loc>
     <lastmod>2023-03-28T20:52:02+08:00</lastmod>
   </url><url>
     <loc>https://mustr.github.io/tags/mysql/</loc>
@@ -20,20 +41,17 @@
     <loc>https://mustr.github.io/posts/blog/mysql_cluster_deploy/</loc>
     <lastmod>2023-03-27T22:20:39+08:00</lastmod>
   </url><url>
-    <loc>https://mustr.github.io/tags/</loc>
-    <lastmod>2023-03-27T22:20:39+08:00</lastmod>
-  </url><url>
     <loc>https://mustr.github.io/posts/blog/</loc>
     <lastmod>2023-03-27T22:20:39+08:00</lastmod>
   </url><url>
     <loc>https://mustr.github.io/posts/blog/mysql_cluster/</loc>
     <lastmod>2023-03-27T22:04:55+08:00</lastmod>
   </url><url>
-    <loc>https://mustr.github.io/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <loc>https://mustr.github.io/tags/docker/</loc>
     <lastmod>2023-03-27T21:35:44+08:00</lastmod>
   </url><url>
-    <loc>https://mustr.github.io/tags/docker/</loc>
-    <lastmod>2023-03-27T21:24:17+08:00</lastmod>
+    <loc>https://mustr.github.io/posts/tech/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2023-03-27T21:35:44+08:00</lastmod>
   </url><url>
     <loc>https://mustr.github.io/posts/tech/docker%E5%AE%89%E8%A3%85/</loc>
     <lastmod>2023-03-27T21:24:17+08:00</lastmod>
@@ -61,15 +79,6 @@
   </url><url>
     <loc>https://mustr.github.io/posts/life/</loc>
     <lastmod>2022-05-05T00:18:15+08:00</lastmod>
-  </url><url>
-    <loc>https://mustr.github.io/posts/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
-  </url><url>
-    <loc>https://mustr.github.io/tags/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
-  </url><url>
-    <loc>https://mustr.github.io/posts/read/read/</loc>
-    <lastmod>2022-05-05T00:18:06+08:00</lastmod>
   </url><url>
     <loc>https://mustr.github.io/about/</loc>
     <lastmod>2022-03-27T20:00:00+08:00</lastmod>

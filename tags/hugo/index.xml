@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hugo on 沐码阁</title>
+    <link>https://mustr.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on 沐码阁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 28 Mar 2023 20:52:02 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo常用命令</title>
+      <link>https://mustr.github.io/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Tue, 28 Mar 2023 20:52:02 +0800</pubDate>
+      
+      <guid>https://mustr.github.io/posts/tech/hugo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>创建新网站 hugo new site 网站名字 hugo开启服务 hugo server --buildDrafts hugo serve hugo server -D 三种方式都可以 新建文件 hugo new 文件目录/文件名.zh.md hugo new 文件目录/文件目录/文件名.zh.md 新建章节 hugo new --kind chapter 文件目录/_index.zh.md 文件_index.zh.md里面改为 chapter = true 添加主题 // 进入主题目录 cd themes/ // 克隆le</description>
+    </item>
+    
+  </channel>
+</rss>
