@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>arthas on 沐码阁</title>
+    <link>https://mustr.github.io/tags/arthas/</link>
+    <description>Recent content in arthas on 沐码阁</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 03 Apr 2023 21:37:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/arthas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arthas的使用</title>
+      <link>https://mustr.github.io/posts/blog/arthas/</link>
+      <pubDate>Mon, 03 Apr 2023 21:37:35 +0800</pubDate>
+      
+      <guid>https://mustr.github.io/posts/blog/arthas/</guid>
+      <description>安装arthas #安装 curl -O https://arthas.aliyun.com/arthas-boot.jar #启动 java -jar arthas-boot.jar #选择应用java进程 $ $ java -jar arthas-boot.jar * [1]: 35542 [2]: 71560 math-game.jar 常用命令 Jad命令 jad反编译命令 $ jad demo.MathGame ClassLoader: +-sun.misc.Launcher$AppClassLoader@3d4eac69 +-sun.misc.Launcher$ExtClassLoader@66350f69 Location: /tmp/math-game.jar ... java 代码 watch命令 通过watch命令来查看demo.MathGame#primeFactors函数的返回值 watch 类路径 方法名 returnObj 例如： $ watch demo.MathGame primeFactors returnObj Press Ctrl+C</description>
+    </item>
+    
+  </channel>
+</rss>

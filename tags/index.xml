@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>🧩 标签 on 沐码阁</title>
+    <title>📊 标签 on 沐码阁</title>
     <link>https://mustr.github.io/tags/</link>
-    <description>Recent content in 🧩 标签 on 沐码阁</description>
+    <description>Recent content in 📊 标签 on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Mar 2023 21:19:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 21:37:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>arthas</title>
+      <link>https://mustr.github.io/tags/arthas/</link>
+      <pubDate>Mon, 03 Apr 2023 21:37:35 +0800</pubDate>
+      
+      <guid>https://mustr.github.io/tags/arthas/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>阅读</title>
       <link>https://mustr.github.io/tags/%E9%98%85%E8%AF%BB/</link>

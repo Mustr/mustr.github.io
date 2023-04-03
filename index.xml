@@ -6,7 +6,16 @@
     <description>Recent content on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 29 Mar 2023 21:19:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 21:37:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arthas的使用</title>
+      <link>https://mustr.github.io/posts/blog/arthas/</link>
+      <pubDate>Mon, 03 Apr 2023 21:37:35 +0800</pubDate>
+      
+      <guid>https://mustr.github.io/posts/blog/arthas/</guid>
+      <description>安装arthas #安装 curl -O https://arthas.aliyun.com/arthas-boot.jar #启动 java -jar arthas-boot.jar #选择应用java进程 $ $ java -jar arthas-boot.jar * [1]: 35542 [2]: 71560 math-game.jar 常用命令 Jad命令 jad反编译命令 $ jad demo.MathGame ClassLoader: +-sun.misc.Launcher$AppClassLoader@3d4eac69 +-sun.misc.Launcher$ExtClassLoader@66350f69 Location: /tmp/math-game.jar ... java 代码 watch命令 通过watch命令来查看demo.MathGame#primeFactors函数的返回值 watch 类路径 方法名 returnObj 例如： $ watch demo.MathGame primeFactors returnObj Press Ctrl+C</description>
+    </item>
+    
     <item>
       <title>《卓有成效的管理者》读后感</title>
       <link>https://mustr.github.io/posts/read/%E5%8D%93%E6%9C%89%E6%88%90%E6%95%88%E7%9A%84%E7%AE%A1%E7%90%86%E8%80%85%E8%AF%BB%E5%90%8E%E6%84%9F/</link>

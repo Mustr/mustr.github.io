@@ -6,7 +6,16 @@
     <description>Recent content in 🧱 开发 on 沐码阁</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Mar 2023 22:20:39 +0800</lastBuildDate><atom:link href="https://mustr.github.io/posts/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Apr 2023 21:37:35 +0800</lastBuildDate><atom:link href="https://mustr.github.io/posts/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arthas的使用</title>
+      <link>https://mustr.github.io/posts/blog/arthas/</link>
+      <pubDate>Mon, 03 Apr 2023 21:37:35 +0800</pubDate>
+      
+      <guid>https://mustr.github.io/posts/blog/arthas/</guid>
+      <description>安装arthas #安装 curl -O https://arthas.aliyun.com/arthas-boot.jar #启动 java -jar arthas-boot.jar #选择应用java进程 $ $ java -jar arthas-boot.jar * [1]: 35542 [2]: 71560 math-game.jar 常用命令 Jad命令 jad反编译命令 $ jad demo.MathGame ClassLoader: +-sun.misc.Launcher$AppClassLoader@3d4eac69 +-sun.misc.Launcher$ExtClassLoader@66350f69 Location: /tmp/math-game.jar ... java 代码 watch命令 通过watch命令来查看demo.MathGame#primeFactors函数的返回值 watch 类路径 方法名 returnObj 例如： $ watch demo.MathGame primeFactors returnObj Press Ctrl+C</description>
+    </item>
+    
     <item>
       <title>MySQL集群部署</title>
       <link>https://mustr.github.io/posts/blog/mysql_cluster_deploy/</link>
